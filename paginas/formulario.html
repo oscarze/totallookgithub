@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../css/estilo1.css">
+  </head>
+  <body style="background-color:#5D6D7E  ;">
+  <body>
+  <center>
+  <font face="Candara" size="5" color="white"> <p> INICIA SESIÓN O REGISTRARSE </p> <br></font>
+  </center>
+  <link rel="stylesheet" href="../CSS/Estilo1.css" type="text/css">
+    <font face="Candara" size="5" color="black">
+    <form method="post" action="#">
+    <input type="hidden" name="destinatario" value="misitio.com">
+    <input type="hidden" name="asunto" value="Formulario de realimentaci&oacute;n">
+    <input type="hidden" name="redirigir" value="principal.html">
+
+    <p> <label> Nombre: <!--Nombre-->
+    <input name="nombre" type="text" name="redirigir" maxlength="20" placeholder="Ingrese su nombre" autofocus required> <!--Autofocus para campo obligatorio y poder enviar formulario -->
+    <p> <label> Apellido: <!--Apellido-->
+    <input name="nombre" type="text" name="redirigir" maxlength="20" placeholder="Ingrese su apellido" autofocus required> <!--Autofocus para campo obligatorio y poder enviar formulario -->
+    </label>
+    </p>
+
+    <p> <label> Telefono o Celular: <!--Numero de telefono y es un campo obligatorio-->
+    <input name="numero" type="text" name="redirigir"  maxlength="10" placeholder="Numero" required>
+    </label>
+    </p>
+
+    <p> <label for= "email"> Correo Electrónico: <!--Esto te pide un email-->
+    <input type="email" id="email" placeholder="example@gmail.com" name="correo" type="text" name="redirigir" maxlength="30" required> <!--Placeholder para ejemplo de campo y Required para campo obligatorio-->
+    </label>
+    </p>
+
+    <p>Estado de residencia</p> <!--Elegir el estado con busqueda incluida-->
+    <input type="submit" value="Buscar"> <!--Boton busqueda-->
+    <label>
+    <input type="search" name="busqueda de estado" list="lista de estados" placeholder="Buscar ciudad"> <!--Busca el estado-->
+    <datalist id="lista de estados"> <!--Opciones con la lista de los estados para elegir-->
+
+      <option value="Puebla">
+       <option value="Ciudad de México">
+        <option value="EDOMEX">
+         <option value="Monterrey">
+          <option value="Baja California">
+           <option value="Chihuahua">
+            <option value="Coahuila">
+             <option value="Aguascalientes">
+
+
+      </datalist>
+      </label> <br>
+
+      <p>Selcciona tu edad</p>
+      <input type="range" name="" id="edad" required list="price" ><span class="linea" ></span>
+      <label for="">0-100 años</label><!--Etiqueta de rango -->
+      <datalist id="edad">
+
+        <option value="17" value="Menor de edad">
+        <option value="18" value="Mayor de edad">
+
+       </datalist>
+      </div>
+
+      <p> <label>Codigo postal: <!--Codigo postal-->
+      <input name="code" type="text" name="redirigir"  maxlength="10" placeholder="Ingrese su codigo" required><!--Campo obligatorio-->
+      </label>
+      </p>
+
+      <font face="Candara" color="#FEF9E7"><br><p>Sexo</p></font> <!--Genero-->
+
+      <label> Masculino
+      <input name="MASCULINO" type="radio" value="genero" checked> <!--Checked para autorellenar la opcion-->
+
+      </label>
+
+      <label> Femenino
+      <input name="FEMENINO" type="radio" value="genero" >
+      </label>
+
+      <label> Otro
+      <input name="OTRO" type="radio" value="genero" >
+      </label><br>
+
+        <font face="Candara" color="#FEF9E7"><br><p>Elige el colo de tu perfil</p></font><!--Elegir un color-->
+      <label> Color
+      <input name="color"type="color" value="colorperfil">
+      </label><br>
+
+      <font face="Candara" size="4" color="black"> <br><p>Estoy de acuerdo con<a href="#">Terminos y Condiciones</p></a></font><!--Leer los terminos y condiciones-->
+
+      <label> Aceptar
+      <input name="nada"type="checkbox" value="Escolaridad"><!--Opviones rellenables-->
+      </label>
+
+      <label> Declinar
+      <input name="primaria"type="checkbox" value="Escolaridad">
+      </label><br>
+
+      <br>
+      <a href="#"><input type="button" value="ACEPTAR &raquo;"></a>
+
+      <center>
+      <p><a href="#"><font face="Candara" color="#E5E7E9"> ¿Ya tengo cuenta? </a></p></font></center>
+      <button type="reset" class="borrar">Reiniciar</button>
+  <footer class="foot">
+
+ </footer>
+
+  </body>
+</html>

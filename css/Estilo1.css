@@ -1,0 +1,159 @@
+<!--Este es un estilo css-->
+h1 {
+          font-style: Arial;}
+
+h2  {
+
+          color      : black}
+
+
+input{
+
+	font-size: 19px;
+	color: white;
+	background-color: black;}
+
+body {
+          background : white}
+table{
+
+
+	color: white;
+	background-color: DarkSlateGray;
+	border-color: black; 	}
+
+title {
+          color : white}
+
+table{
+          	color: white;
+          	background-color:black;
+          	border-color: white; 	}
+
+form{
+        	   width:300px;
+             padding:20px;
+      	     border-radius:5px;
+      	     margin:auto;
+      	     background-color: #34495E ;
+            }
+
+form input[type="submit"],
+form input[type="reset"]
+{
+             border: 1px solid black;
+             color:black;
+             background-color:#E5E7E9;
+                        }
+
+form input[type="text"],
+form input[type="email"]
+{
+             width:200px;
+             padding:4px 15px;
+             border:1px solid #1f53c5 ;
+             background-color: #34495E;
+          	 margin:10px 3;
+          	 display:inline-block;
+            }
+
+form input[type="search"]
+{
+             border: 2px solid #1f53c5;
+             border-radius: 0;
+             background-color:#34495E;
+            }
+
+form input[type="button"]
+{
+             border: 1px solid #1f53c5;
+             color:#E5E7E9;
+             width: 100%;
+             padding: 12px;
+             border-radius: 0;
+             background-color:#1f53c5;
+                        }
+
+form input[type="color"]{
+
+  width: 80%;
+  height: auto;
+  padding: 9px;
+  background-color:#34495E;
+
+}
+
+body{
+
+          font-family: arial, helvetica;
+          background white;}
+.menu{
+      list-style: none;
+      padding: 0;
+      background: #F4F6F6;
+      width: 90;
+      max-width 1000px;
+      margin: auto;
+}
+.menu li a{
+      text-decoration: none;
+      color: black;
+      padding: 20px;
+      display: block;
+    }
+.menu li {
+     display: inline-block;
+     text-align: center;
+        }
+.menu li a:hover{
+  background: #3498DB;
+}
+
+.video-responsive {
+position: relative;
+padding-bottom: 56.25%; /* 16/9 ratio */
+padding-top: 30px; /* IE6 workaround*/
+height: 0;
+overflow: hidden;
+}
+
+.video-responsive iframe,
+.video-responsive object,
+.video-responsive embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+table{
+    background-color: #E1C17D   ;
+    text-align: left;
+    width: 50%;
+    color: black;
+}
+
+a:link { /*Pseudo-clase: links*/
+      background-color: white; /*Color de fondo*/
+}
+
+a:visited { /*Links ya visitados*/
+	   background-color:#2874A6; /*Color de fondo*/
+     border-color:#56070C; /*Color del borde*/
+     color: #Navy; /*Color del texto*/
+}
+
+a:hover { /*Pseudo-clase para cambiar el color cuando pase el puntero encima*/
+     background-color: #99A3A4 ;  /*Color de fondo gris*/
+}
+
+.red-input:focus { /*Esta pseudo-clase se aplica solo al elemento enfocado en sí mismo*/
+     background:#3498DB;
+     color: black;
+}
+
+pre.elemento::before { /*Pseudo elemento cadena antes del texto*/
+     content : "Atención: "; /*Cadena antes del texto*/
+     color : #2874A6; /*Color del texto azul*/
+}
